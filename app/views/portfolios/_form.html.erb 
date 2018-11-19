@@ -19,11 +19,12 @@
     <%= form.fields_for :technologies do |technology_form| %>
       <li>
         <%= technology_form.label :name %>
-        <%= technology_form.text_field :name %>
+        <%= technology_form.text_fied :name %>
       </li>
-    <% end %>
+    <% end %>  
   </ul>
+
   <div class="actions">
-    <%= form.submit %>
+    <%= f.submit %>
   </div>
 <% end %>
