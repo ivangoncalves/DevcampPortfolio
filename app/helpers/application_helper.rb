@@ -16,4 +16,7 @@ module ApplicationHelper
     end
   end
 
+  def copyright_generator
+    FarmhouseViewTool::Renderer.copyright 'Ivan Goncalves', 'All rights reserved'
+  end
 end
